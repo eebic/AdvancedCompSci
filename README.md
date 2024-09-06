@@ -25,13 +25,13 @@ All Tasks:
 
 <img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLallTasks.png?raw=true"/>
 
-Edit Tasks:
-
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLeditTasks.png?raw=true"/>
-
 Mark Complete:
 
 <img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmarkComplete.png?raw=true"/>
+
+Edit Tasks:
+
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLeditTasks.png?raw=true"/>
 
 End Screen:
 
