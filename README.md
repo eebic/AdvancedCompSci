@@ -9,4 +9,6 @@ Link to codeHS file: https://codehs.com/sandbox/id/java-main-jUVHjI?filepath=Use
 
 ### Functionality Demonstration
 
+<img src="link" />
+
 
