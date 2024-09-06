@@ -13,27 +13,27 @@ Link to codeHS file: https://codehs.com/sandbox/id/java-main-jUVHjI?filepath=Use
 
 Start Screen:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLstartScreen.png?raw=true" width = "400"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLstartScreen.png?raw=true" width = "350"/>
 
 User Menu: 
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmenu.png?raw=true"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmenu.png?raw=true" width = "350"/>
 
 Add Tasks:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLaddTask.png?raw=true"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLaddTask.png?raw=true" width = "350"/>
 
 All Tasks:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLallTasks.png?raw=true"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLallTasks.png?raw=true" width = "350"/>
 
 Mark Complete:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmarkComplete.png?raw=true"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmarkComplete.png?raw=true" width = "350"/>
 
 Edit Tasks:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLeditTasks.png?raw=true"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLeditTasks.png?raw=true" width = "350"/>
 
 End Screen:
 
