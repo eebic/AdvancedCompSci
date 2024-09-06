@@ -5,7 +5,7 @@ My repository for individual projects in Mr Kapptie's Advanced Comp Sci class (2
 
 ### Summary
 
-This application acts as a to-do list where users can add, categorieze, view, edit, and mark complete personalized tasks. This to-do list was created using object-oriented design principles. This was achieved through the use of 
+This application acts as a to-do list where users can add, categorieze, view, edit, and mark complete personalized tasks. This to-do list was created using object-oriented design principles. Five classes were created (MainApp, Task, Category, ToDoList, and User)
 
 Link to codeHS file: https://codehs.com/sandbox/id/java-main-jUVHjI?filepath=User.java
 
