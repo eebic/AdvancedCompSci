@@ -9,6 +9,7 @@ Link to codeHS file: https://codehs.com/sandbox/id/java-main-jUVHjI?filepath=Use
 
 ### Functionality Demonstration
 
-<img src="link" />
+Start Screen:
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLstartScreen.png?raw=true" />
 
 
