@@ -47,6 +47,8 @@ public class MainApp {
                     markTaskAsComplete(user);
                     break;
                 case 6:
+                    clearConsole();
+                    System.out.println("Bye bye! :)");
                     running = false;
                     break;
                 default:
