@@ -3,7 +3,9 @@ My repository for individual projects in Mr Kapptie's Advanced Comp Sci class (2
 
 ## To-Do List
 
-This application
+**Summary**
+
+This application acts as an to-do list where users can add, categorieze, view, edit, and mark complete personalized tasks. This to-do list was created using 
 
 Link to codeHS file: https://codehs.com/sandbox/id/java-main-jUVHjI?filepath=User.java
 
@@ -11,7 +13,7 @@ Link to codeHS file: https://codehs.com/sandbox/id/java-main-jUVHjI?filepath=Use
 
 Start Screen:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLstartScreen.png?raw=true" />
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLstartScreen.png?raw=true"/>
 
 Menu: 
 
