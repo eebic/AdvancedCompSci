@@ -37,7 +37,7 @@ Edit Tasks:
 
 End Screen:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLendScreen.png?raw=true" width = "150"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLendScreen.png?raw=true" width = "350"/>
 
 
 
