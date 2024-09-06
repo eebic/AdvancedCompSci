@@ -3,9 +3,9 @@ My repository for individual projects in Mr Kapptie's Advanced Comp Sci class (2
 
 ## To-Do List
 
-**Summary**
+###Summary
 
-This application acts as an to-do list where users can add, categorieze, view, edit, and mark complete personalized tasks. This to-do list was created using 
+This application acts as a to-do list where users can add, categorieze, view, edit, and mark complete personalized tasks. This to-do list was created using object-oriented design principles. This was achieved through the use of 
 
 Link to codeHS file: https://codehs.com/sandbox/id/java-main-jUVHjI?filepath=User.java
 
@@ -15,7 +15,7 @@ Start Screen:
 
 <img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLstartScreen.png?raw=true"/>
 
-Menu: 
+User Menu: 
 
 <img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmenu.png?raw=true"/>
 
