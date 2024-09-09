@@ -108,26 +108,30 @@ public class MainApp {
     }
 
     private static void viewTasks(User user) {
-        clearConsole();
-        System.out.println("\nAll Tasks for " + user.getUserName() + ":");
-        List<Task> tasks = user.getToDoList().getTasks();
-        if (tasks.isEmpty()) {
-            System.out.println("No tasks available.");
-        } else {
-            tasks.forEach(System.out::println);
+    clearConsole();
+    System.out.println("\nAll Tasks for " + user.getUserName() + ":");
+    List<Task> tasks = user.getToDoList().getTasks();
+    if (tasks.isEmpty()) {
+        System.out.println("No tasks available.");
+    } else {
+        for (int i = 0; i < tasks.size(); i++) {
+            System.out.println((i + 1) + ". " + tasks.get(i));
         }
     }
+}
 
-    private static void viewIncompleteTasks(User user) {
-        clearConsole();
-        System.out.println("\nIncomplete Tasks for " + user.getUserName() + ":");
-        List<Task> tasks = user.getToDoList().getIncompleteTasks();
-        if (tasks.isEmpty()) {
-            System.out.println("No incomplete tasks.");
-        } else {
-            tasks.forEach(System.out::println);
+private static void viewIncompleteTasks(User user) {
+    clearConsole();
+    System.out.println("\nIncomplete Tasks for " + user.getUserName() + ":");
+    List<Task> tasks = user.getToDoList().getIncompleteTasks();
+    if (tasks.isEmpty()) {
+        System.out.println("No incomplete tasks.");
+    } else {
+        for (int i = 0; i < tasks.size(); i++) {
+            System.out.println((i + 1) + ". " + tasks.get(i));
         }
     }
+}
 
     private static void editTask(User user) {
         clearConsole();
