@@ -81,7 +81,7 @@ public class MainApp {
         System.out.print("Enter task name: ");
         String taskName = scanner.nextLine();
 
-        System.out.print("Enter due date (yyyy-MM-dd): ");
+        System.out.print("Enter due date (yyyy-mm-dd): ");
         String dateString = scanner.nextLine();
         LocalDate dueDate = LocalDate.parse(dateString, dateFormatter);
 
