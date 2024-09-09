@@ -55,6 +55,7 @@ public class MainApp {
                     sortTasksByCategory(user);
                     break;
                 case 7:
+                    clearConsole();
                     System.out.println("Bye bye! :)");
                     running = false;
                     break;
