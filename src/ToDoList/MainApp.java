@@ -23,6 +23,11 @@ public class MainApp {
         String username = scanner.nextLine();
         User user = new User(username);
 
+        // Initialize default categories
+        for (String categoryName : categories) {
+            user.getToDoList().addCategory(new Category(categoryName));
+        }
+
         boolean running = true;
         while (running) {
             displayMenu(user);
@@ -47,7 +52,9 @@ public class MainApp {
                     markTaskAsComplete(user);
                     break;
                 case 6:
-                    clearConsole();
+                    sortTasksByCategory(user);
+                    break;
+                case 7:
                     System.out.println("Bye bye! :)");
                     running = false;
                     break;
@@ -55,7 +62,7 @@ public class MainApp {
                     System.out.println("Invalid option, try again.");
             }
 
-            if (option != 6) {
+            if (option != 7) {
                 System.out.print("\nPress enter to return to menu...");
                 scanner.nextLine();
                 clearConsole();
@@ -72,7 +79,8 @@ public class MainApp {
         System.out.println("3. View Incomplete Tasks");
         System.out.println("4. Edit Task");
         System.out.println("5. Mark Task as Complete");
-        System.out.println("6. Exit");
+        System.out.println("6. Sort Tasks by Category");
+        System.out.println("7. Exit");
         System.out.print("Choose an option: ");
     }
 
@@ -95,7 +103,7 @@ public class MainApp {
         String category = categories.get(categoryIndex - 1);
 
         Task task = new Task(taskName, dueDate);
-        user.getToDoList().addTask(task);
+        user.getToDoList().addTask(task, category);
         System.out.println("Task added under category: " + category);
     }
 
@@ -106,9 +114,7 @@ public class MainApp {
         if (tasks.isEmpty()) {
             System.out.println("No tasks available.");
         } else {
-            for (int i = 0; i < tasks.size(); i++) {
-                System.out.println((i + 1) + ". " + tasks.get(i));
-            }
+            tasks.forEach(System.out::println);
         }
     }
 
@@ -119,9 +125,7 @@ public class MainApp {
         if (tasks.isEmpty()) {
             System.out.println("No incomplete tasks.");
         } else {
-            for (int i = 0; i < tasks.size(); i++) {
-                System.out.println((i + 1) + ". " + tasks.get(i));
-            }
+            tasks.forEach(System.out::println);
         }
     }
 
@@ -178,16 +182,15 @@ public class MainApp {
         }
     }
 
+    private static void sortTasksByCategory(User user) {
+        clearConsole();
+        System.out.println("\nTasks Sorted by Category:");
+        user.getToDoList().printTasksByCategory();
+    }
+
     private static void clearConsole() {
-        try {
-            if (System.getProperty("os.name").contains("Windows")) {
-                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-            } else {
-                System.out.print("\033[H\033[2J");
-                System.out.flush();
-            }
-        } catch (Exception e) {
-            System.out.println("Error clearing console: " + e.getMessage());
-        }
+        // System.out.print("\033[H\033[2J"); // For Unix-based systems
+        System.out.print("\033[H\033[2J"); // For Windows
+        System.out.flush();
     }
 }
