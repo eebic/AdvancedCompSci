@@ -43,7 +43,7 @@ Sort by Category:
 
 End Screen:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLexit.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLexitScreen.png?raw=true" width = "350"/>
 
 
 
