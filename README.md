@@ -24,7 +24,7 @@ User Menu:
 Add Tasks:
 
 flag
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLaddTask.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLaddTasks.png?raw=true" width = "350"/>
 
 View Tasks:
 
@@ -37,7 +37,7 @@ Edit Tasks:
 Mark Complete:
 
 flag
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmarkComplete.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmarkedComplete.png?raw=true" width = "350"/>
 
 Sort by Category:
 
