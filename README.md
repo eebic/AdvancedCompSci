@@ -23,7 +23,6 @@ User Menu:
 
 Add Tasks:
 
-flag
 <img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLaddTasks.png?raw=true" width = "350"/>
 
 View Tasks:
@@ -36,7 +35,6 @@ Edit Tasks:
 
 Mark Complete:
 
-flag
 <img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmarkedComplete.png?raw=true" width = "350"/>
 
 Sort by Category:
