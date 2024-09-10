@@ -23,7 +23,6 @@ public class MainApp {
         String username = scanner.nextLine();
         User user = new User(username);
 
-        // Initialize default categories
         for (String categoryName : categories) {
             user.getToDoList().addCategory(new Category(categoryName));
         }
@@ -33,7 +32,7 @@ public class MainApp {
             displayMenu(user);
 
             int option = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (option) {
                 case 1:
@@ -100,7 +99,7 @@ public class MainApp {
         }
         System.out.print("Choose a category number: ");
         int categoryIndex = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         String category = categories.get(categoryIndex - 1);
 
         Task task = new Task(taskName, dueDate);
@@ -138,10 +137,9 @@ private static void viewIncompleteTasks(User user) {
         clearConsole();
         viewTasks(user);
         System.out.print("Enter the number of the task you want to edit: ");
-        int taskIndex = scanner.nextInt(); // 1-based index
-        scanner.nextLine(); // Consume newline
+        int taskIndex = scanner.nextInt(); 
+        scanner.nextLine(); 
 
-        // Convert to 0-based index
         taskIndex -= 1;
 
         List<Task> tasks = user.getToDoList().getTasks();
@@ -171,10 +169,9 @@ private static void viewIncompleteTasks(User user) {
         clearConsole();
         viewTasks(user);
         System.out.print("Enter the number of the task you want to mark as complete: ");
-        int taskIndex = scanner.nextInt(); // 1-based index
-        scanner.nextLine(); // Consume newline
+        int taskIndex = scanner.nextInt(); 
+        scanner.nextLine(); 
 
-        // Convert to 0-based index
         taskIndex -= 1;
 
         List<Task> tasks = user.getToDoList().getTasks();
@@ -194,8 +191,7 @@ private static void viewIncompleteTasks(User user) {
     }
 
     private static void clearConsole() {
-        // System.out.print("\033[H\033[2J"); // For Unix-based systems
-        System.out.print("\033[H\033[2J"); // For Windows
+        System.out.print("\033[H\033[2J");
         System.out.flush();
     }
 }
