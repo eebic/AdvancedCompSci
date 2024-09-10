@@ -21,9 +21,6 @@ public class ToDoList {
             }
         }
 
-        Category newCategory = new Category(categoryName);
-        newCategory.addTask(task);
-        categories.add(newCategory);
     }
 
     public List<Task> getTasks() {
