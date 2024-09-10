@@ -15,7 +15,7 @@ Link to codeHS file: https://codehs.com/sandbox/id/java-main-jUVHjI?filepath=Use
 
 Start Screen:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLstartScreen.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLstartScreen.png?raw=true" width = "350">
 
 User Menu: 
 
