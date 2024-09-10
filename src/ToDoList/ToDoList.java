@@ -20,7 +20,7 @@ public class ToDoList {
                 return;
             }
         }
-        // Create a new category if it doesn't exist
+
         Category newCategory = new Category(categoryName);
         newCategory.addTask(task);
         categories.add(newCategory);
