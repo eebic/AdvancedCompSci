@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class MainApp {
     private static Scanner scanner = new Scanner(System.in);
-    private static DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+    private static DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
     private static List<String> categories;
 
     static {
