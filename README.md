@@ -19,31 +19,31 @@ Start Screen:
 
 User Menu: 
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLuserMenu.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLuserMenu.png?raw=true" width = "350">
 
 Add Tasks:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLaddTasks.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLaddTasks.png?raw=true" width = "350">
 
 View Tasks:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLviewTasks.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLviewTasks.png?raw=true" width = "350">
 
 Edit Tasks:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLeditTask.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLeditTask.png?raw=true" width = "350">
 
 Mark Complete:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmarkedComplete.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLmarkedComplete.png?raw=true" width = "350">
 
 Sort by Category:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLsortCategory.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLsortCategory.png?raw=true" width = "350">
 
 End Screen:
 
-<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLexitScreen.png?raw=true" width = "350"/>
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLexitScreen.png?raw=true" width = "350">
 
 
 
