@@ -45,6 +45,13 @@ End Screen:
 
 <img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/ToDoList/TDLexitScreen.png?raw=true" width = "350">
 
+## Dolphin Database
+
+### Summary
+
+The project utilizes arrays and files to manage dolphin data. An array of strings (titled "dolphins") stores names entered by the user, with its size determined by user input. After collecting the names, the code writes them to a file (titled "dolphinData.txt") using BufferedWriter. It then reads the file's contents with BufferedReader to display the stored names on the console. This process is an example of how arrays temporarily handle data, while files provide stable/longer-term storage.
+
+### Functionality Demonstration
 
 
 
