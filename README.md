@@ -49,7 +49,7 @@ End Screen:
 
 ### Summary
 
-The project utilizes arrays and files to manage dolphin data. An array of strings (titled "dolphins") stores names entered by the user, with its size determined by user input. After collecting the names, the code writes them to a file (titled "dolphinData.txt") using BufferedWriter. It then reads the file's contents with BufferedReader to display the stored names on the console. This process is an example of how arrays temporarily handle data, while files provide stable/longer-term storage.
+The project utilizes arrays and files to manage dolphin data. An array of strings (titled "dolphins") stores names entered by the user, with its size determined by user input. After collecting the names, the code writes them to a file (titled "dolphinData.txt") using BufferedWriter. It then reads the file's contents with BufferedReader to display the stored names on the console. This process is an example of how arrays and files can be used together.
 
 ### Functionality Demonstration
 
