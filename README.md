@@ -53,6 +53,8 @@ The project utilizes arrays and files to manage dolphin data. An array of string
 
 ### Functionality Demonstration
 
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/DolphinDatabase/DDstartScreen.png?raw=true" width = "350">
 
+<img src="https://github.com/eebic/AdvancedCompSci/blob/main/img/DolphinDatabase/DDfinish.png?raw=true" width = "350">
 
 
