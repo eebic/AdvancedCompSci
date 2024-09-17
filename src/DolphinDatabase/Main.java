@@ -25,7 +25,9 @@ public class Main {
                     break;
                 }
             } catch (NumberFormatException e) {
-                // NumberFormatException is an exception that tells when there's an attempt to convert a string into a numeric type, but the string doesn't have the appropriate format for conversion
+                // NumberFormatException is an exception that tells when there's an attempt to
+                // convert a string into a numeric type, but the string doesn't have the
+                // appropriate format for conversion
                 System.out.println("Invalid input. Please enter a valid number.");
             }
         }
@@ -47,12 +49,13 @@ public class Main {
             for (String dolphin : dolphins) {
                 writer.write("\n" + dolphin);
             }
-            
+
             writer.close();
 
         } catch (IOException e) {
             System.out.println("Error writing to file.");
-            // printStackTrace is a class that prints details like the line # and class name(?) where the error/ exception occurred
+            // printStackTrace is a class that prints details like the line # and class
+            // name(?) where the error/ exception occurred
             e.printStackTrace();
         }
 
